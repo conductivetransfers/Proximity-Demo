@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CTI  Proximity Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="https://unpkg.com/p5.serialport/lib/p5.serialport.js"></script>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: sans-serif;
+      }
+      canvas {
+        display: block;
+      }
+      #calibration-message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.95);
+        padding: 25px 35px;
+        border-radius: 12px;
+        font-size: 18px;
+        color: #111;
+        text-align: center;
+        display: none;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="calibration-message">
+      <strong>Calibrating sensor...</strong><br />
+      Don’t touch the surface or place it near metal.
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
