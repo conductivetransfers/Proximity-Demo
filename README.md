@@ -1,15 +1,24 @@
-# Proximity-Demo
+# CTI-Proximity-Demo
 
-Here’s how to launch and experience the CTI Proximity Demo:
-
-Open this link in Google Chrome or Microsoft Edge (desktop only):
+🖥️ How to Launch the Demo  
+👉 Open this link in Google Chrome or Microsoft Edge (desktop only):  
 🔗 https://conductivetransfers.github.io/Proximity-Demo/
 
-1. Plug the provided USB cable into the CTI Demo Box and your computer.
+📦 What You Need  
+-A computer with Google Chrome or Microsoft Edge  
+-A USB-C cable (not included)  
+-The CTI Proximity Demo Kit
+
+🔌 Instructions
+1. Connect the CTI Proximity Demo Kit to your computer.
 2. Open the link above in Google Chrome or Edge.
-3. Click the “Connect to Device” button.
-4. Select the correct COM port for the demo box.
-5. Wait 3 seconds for calibration (don’t touch the surface or place it near metal).
-6. Hover your hand above the surface — the cube will respond dynamically!
-   
-⚠️ This demo only works on desktop (not mobile/tablet), and only in Google Chrome or Microsoft Edge due to browser security restrictions.
+3. Click the “Connect to Proximity Interface” button on the screen.
+4. Choose the correct COM port when prompted.
+5. During the 3-second calibration:  
+      -Do not touch the sensor surface.  
+      -Ensure it is not placed near any metallic objects.  
+8. After calibration, move your hand near the surface — the cube will respond by growing larger as your hand gets closer.
+
+⚠️ Important Notes  
+-This demo only works on desktop (not mobile or tablet).  
+-It is compatible only with Google Chrome and Microsoft Edge due to browser security policies around USB access.
