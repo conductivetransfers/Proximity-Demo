@@ -6,7 +6,7 @@
 
 📦 What You Need  
 -A computer with Google Chrome or Microsoft Edge  
--A USB-C cable
+-A USB-C cable  
 -The CTI Proximity Demo Kit
 
 🔌 Instructions
