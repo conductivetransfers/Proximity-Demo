@@ -37,6 +37,11 @@ function setup() {
   const button = createButton('Connect to Proximity Interface');
   button.position(10, 10);
   button.mousePressed(connectSerial);
+
+  rawValueDiv = createDiv('Raw Value: ---');
+  rawValueDiv.position(10, 50); // just below the button
+  rawValueDiv.style('font-size', '16px');
+  rawValueDiv.style('color', '#333');
 }
 
 function draw() {
@@ -117,6 +122,9 @@ async function readLoop() {
             // Cap values above 500 to 500
             let safeVal = constrain(num, 0, 500);
             updateFilteredSize(safeVal);
+
+            // Update raw value display
+            rawValueDiv.html('Raw Value: ' + num.toFixed(2));
           } else {
             console.warn("Invalid input, using default.");
             updateFilteredSize(defaultCubeSize);
